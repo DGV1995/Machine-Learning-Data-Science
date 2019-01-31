@@ -1,0 +1,4 @@
+1. Calculamos la entropía inicial del sistema basándonos en la variable objetivo a predecir.
+2. Calculamos la ganancia de información para cada vriable candidata para un nodo. Seleccionamos la variable que nos da máxima ganancia de información como nodo de decisión.
+3. Repetimos el paso 2 para cada rama (valor) de cada nodo (variable candidata). El nuevo modo identificado es un nodo hoja.
+4. Comprobamos si el nodo hoja clasifica correctamente todos los datos. Si es así, paramos con esa rama. Si no es así, volvemos al paso 2 e iteramos para ramificarlo.
